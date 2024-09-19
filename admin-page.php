@@ -73,7 +73,7 @@ function cms_template_list()
                 </table>
                 <p class="submit">
                     <input type="submit" name="submit_section" id="submit_section" class="button button-primary" value="<?php echo $is_editing ? "Update Section" : "Save Section" ?>">
-                    <a href="/wp-admin/admin.php?page=custom_section" class="button">Back</a>
+                    <a href="<?php echo admin_url('admin.php?page=custom_section'); ?>" class="button">Back</a>
                 </p>
             </form>
             <?php
