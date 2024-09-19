@@ -1,0 +1,13 @@
+/* Admin Page Styles */
+.wrap {
+    padding: 20px;
+}
+
+.box-margin-custom-section {
+    margin: 25px 20px !important;
+}
+
+.dynamic-field-row{
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+}
